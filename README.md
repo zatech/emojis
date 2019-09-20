@@ -14,5 +14,5 @@ node index.js xoxs-SLACK-OAUTH-TOKEN
 - emojis should be square and be able to be reduced to 128x128 px
 - emojis should have a transparent background
 - Images can only be JPG, GIF, or PNG (https://get.slack.help/hc/en-us/articles/206870177-Add-custom-emoji)
-- maximum filesize is 64kb
+- Maximum filesize is 128 KB
 - Please refrain from submitting controversial images such as hate speech symbols, unauthorized profile images, etc
