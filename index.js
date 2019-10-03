@@ -32,6 +32,8 @@ emojme.download('zatech', token, downloadOptions).then((res) => {
 
     emojme.add('zatech', token, addOptions).then((res) => {
         console.log('Added Emoji:', res.zatech.emojiList);
+    }).catch(error => {
+        console.error('Failed to Add', addOptions, error);
     });
 });
 
