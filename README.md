@@ -19,11 +19,11 @@ node index.js xoxs-SLACK-OAUTH-TOKEN
 
 
 # Contribution Guidelines
- - Fork this repo to your own account
- - From master, checkout into a feature branch
- - Add a single image (see above guidelines)
- - Make a Merge Request from your feature branch to zatech/master
+ - Fork this repo
+ - Create a feature branch off `master` (e.g. `git checkout -b mc-picard-facepalm`)
+ - Add a single emoji per branch (see above guidelines)
+ - Submit a Pull Request from your branch to `zatech/master`
 
- Please don't spam emoji requests
-
- Ask in #zmeta-emojis if you have any queries or issues 🙏
+ Please don't spam emoji requests.
+ 
+ Ask in `#zmeta-emojis` if you have any queries or issues 🙏
