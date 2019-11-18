@@ -18,6 +18,8 @@ emojme.download('zatech', token, downloadOptions).then((res) => {
 
     const localEmojis = fs.readdirSync('./emojis/');
     const missing = localEmojis.filter((fn) => {
+        return fn.substr(0, 1) !== '.';
+    }).filter((fn) => {
         const emojiName = removeExt(fn);
         return remoteEmojis.indexOf(emojiName) === -1;
     });
