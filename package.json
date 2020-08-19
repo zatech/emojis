@@ -17,6 +17,6 @@
     },
     "homepage": "https://github.com/zatech/emojis#readme",
     "dependencies": {
-        "emojme": "^1.8.1"
+        "emojme": "^1.9.0"
     }
 }
