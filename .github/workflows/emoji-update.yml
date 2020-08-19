@@ -3,7 +3,7 @@ name: Emoji Update
 on:
   push:
     branches:
-      - master
+      - $default-branch
 
 jobs:
   build:
