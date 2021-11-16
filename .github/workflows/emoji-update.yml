@@ -3,7 +3,7 @@ name: Emoji Update
 on:
   push:
     branches:
-      - $default-branch
+      - master
   workflow_dispatch:
 
 jobs:
